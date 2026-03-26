@@ -7,6 +7,4 @@ def classify_rank(wins: int, losses: int) -> str:
     if index >= len(ranks):
         index = len(ranks) - 1
     
-    return f"You are on the {ranks[index]} rank!"
-
-
+    return f"The hero has the number of {average_result}, and he is on the {ranks[index]} rank!"
